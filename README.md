@@ -6,32 +6,33 @@ Automates deletion of Facebook Messenger's messages using [Playwright](https://p
 
 ### Clone the project
 
-```
-$ git clone https://github.com/rhanmiano/playwright-del-messenger.git
-
-```
+`$ git clone https://github.com/rhanmiano/playwright-del-messenger.git`
 
 ### Install the dependencies
 
-`npm install`
+`$ npm install`
 
 ### Run the script
 
-`npm run go`
+`$ npm run go`
 
 While on the terminal, the script will prompt for credentials. These credentials are your Facebook username and password to be used.
 
 ## What's happening?
 
-- Script will prompt for `username` and `password`
-- A Chromium browser context will open up
-- Will go to [messenger website](https://www.messenger.com/)
-- Will try to login with the provided credentials
-- After successful login, the deletion will then takes place while there are message items (in the left section of the page)
+1. Script will prompt for `username` and `password`
+2. A Chromium browser context will open up
+3. Will go to [messenger website](https://www.messenger.com/)
+4. Will try to login with the provided credentials
+5. After successful login, the deletion will then takes place while there are message items (in the left section of the page)
 
 ## No it's not a phishing program
 
-The script will be run in your local machine, and there will be no saving of your provided credentials to somewhere else. You may want to scan the code, before using it.
+The script will be run in your local machine, and there will be no saving of your provided credentials to somewhere else. You may want to scan the code, before using it. Please use at your own risk.
+
+## Use at your risk
+
+This program was used for personal purposes. The use of automation or bot programs on some websites may cause your account of getting banned.
 
 ## Caveats
 
@@ -41,4 +42,4 @@ The script will be run in your local machine, and there will be no saving of you
 
 ## License
 
-&copy; Rhan Miano | CC0 1.0 Universal
+[Rhan Miano](https://rhanmiano.me) - Licensed under CC0 1.0 Universal
