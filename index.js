@@ -39,6 +39,7 @@ let username = (password = '')
     await page.fill('#pass', password)
     await page.click('#loginbutton')
 
+    console.log(await page.url(), `${messengerUrl}login/password/`)
     // redirected to form again, meaning username/password must be invalid
     if ((await page.url()) == `${messengerUrl}login/password/`) {
       console.log(
