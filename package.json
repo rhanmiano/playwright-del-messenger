@@ -1,10 +1,10 @@
 {
   "name": "playwright-del-messenger",
   "version": "0.1.0",
-  "description": "Automates deletion of old Facebook Messenger's messages",
+  "description": "Automates deletion of Facebook Messenger's messages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/rhanmiano/playwright-del-messenger#readme",
   "devDependencies": {
     "playwright": "^1.11.1"
+  },
+  "dependencies": {
+    "prompt": "^1.1.0"
   }
 }
